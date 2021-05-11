@@ -1,0 +1,129 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: auto;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header {
+    height: 69px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#headerLogo {
+    height: 50px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.header li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+#mission {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: block;
+    width: 100%;
+}
+
+h2, h4 {
+    margin: 0px auto;
+    background-color: black;
+    padding: 10px 0px;
+}
+
+#teaMonth {
+    display: block;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.tea {
+    display: inline-block;
+    margin: 20px 10px;
+
+}
+
+.contentTM {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#locations {
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.contentLoc {
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#locHead {
+    font-size: 30px;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.locBox {
+    margin: 15px 20px;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+.closing {
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
