@@ -69,12 +69,13 @@ a:hover {
 .content {
     display: block;
     width: 100%;
+    padding: 10px;
+    background-color: black;
 }
 
 h2, h4 {
-    margin: 0px auto;
+    margin: 0px;
     background-color: black;
-    padding: 10px 0px;
 }
 
 #teaMonth {
@@ -99,10 +100,10 @@ h2, h4 {
 
 #locations {
     margin: 0 auto;
-    height: 500px;
+    height: 50vh;
     width: 80%;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
-    background-size: inherit;
+    background-size: cover;
 }
 
 .contentLoc {
@@ -132,11 +133,239 @@ h2, h4 {
 
 .closing {
     width: 100%;
-    height: 20vh;
+    height: auto;
     text-align: center;
 }
 
 .copyright {
     margin-left: 2vw;
     margin-bottom: 3vh;
+}
+
+@media (max-width: 1200px) {
+    .contentTM {
+        width: 100%;
+    }
+
+    .locBox h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1050px) {
+    #mission h4 {
+        font-size: 20px;
+    }
+
+    #mission h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 925px) {
+    #mission h4 {
+        font-size: 15px;
+    }
+
+    #mission h2 {
+        font-size: 25px;
+    }
+
+    .locBox h5 {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 850px) {
+    .locBox h5 {
+        font-size: 12px;
+    }
+
+    .closing {
+        margin: 15px 0px;
+    }
+
+    .closing h2 {
+        padding: 0px;
+        margin: 25px 0px;
+        width: 100%;
+    }
+
+    .closing h5 {
+        font-size: 20px;
+        margin: 25px 0px;
+        width: 100%;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .locBox h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .locBox h5 {
+        font-size: 11px;
+    }
+
+    .contentTM h4 {
+        font-size: 18px;
+    }
+
+    .closing h2 {
+        font-size: 22px;
+    }
+
+    .closing h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    #mission h4 {
+        font-size: 12px;
+    }
+
+    #mission h2 {
+        font-size: 20px;
+    }
+
+    .locBox h5 {
+        font-size: 10px;
+    }
+
+    .locBox {
+        margin: 15px 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .locBox h5 {
+        font-size: 9px;
+    }
+
+    .locBox h3 {
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    .closing h2 {
+        font-size: 18px;
+    }
+
+    .closing h5 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    #mission h4 {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 525px) {
+    .locBox h5 {
+        font-size: 8px;
+    }
+
+    #mission h4 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 475px) {
+    #locations {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .locBox {
+        height: auto;
+        width: 60%;
+        margin: 10px;
+    }
+
+    .locBox h3 {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .locBox h5 {
+        margin: 5px;
+        font-size: 10px;
+    }
+
+
+    .contentLoc {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+    }
+
+    #locHead {
+        top: 10px;
+    }
+
+    #mission h2 {
+        font-size: 15px;
+    }
+
+    #mission h4 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 450px) {
+    #mission h2 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    #mission h4 {
+        font-size: 12px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    a {
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav ul {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 325px) {
+    .closing h5 {
+        margin: 15px 0px;
+    }
+
+    .closing h2 {
+        margin: 15px 0px;
+    }
+
+    #mission h4 {
+        font-size: 10px;
+    }
 }
